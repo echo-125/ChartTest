@@ -1,41 +1,111 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36 Edg/135.0.0.0" version="27.0.3">
   <diagram name="第 1 页" id="VxLmsfFl5GbTY4NfgnjO">
-    <mxGraphModel dx="780" dy="708" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="1034" dy="1402" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="P-O2WmCgX-pvdEC-6ExG-1" value="&lt;span style=&quot;font-family: &amp;quot;Cascadia Code&amp;quot;, &amp;quot;Fira Code&amp;quot;, Consolas, monospace; font-size: 13px; text-align: start; white-space: pre; background-color: rgb(250, 250, 250);&quot;&gt;API网关（Spring Cloud Gateway）&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="1">
-          <mxGeometry x="200" y="120" width="560" height="80" as="geometry" />
+        <mxCell id="P-O2WmCgX-pvdEC-6ExG-1" value="&lt;span style=&quot;font-family: &amp;quot;Cascadia Code&amp;quot;, &amp;quot;Fira Code&amp;quot;, Consolas, monospace; font-size: 13px; text-align: start; white-space: pre;&quot;&gt;API网关（Spring Cloud Gateway）&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fontColor=default;textShadow=0;glass=0;shadow=1;sketch=1;curveFitting=1;jiggle=2;" parent="1" vertex="1">
+          <mxGeometry x="10" y="-290" width="560" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="P-O2WmCgX-pvdEC-6ExG-2" value="&lt;span style=&quot;font-family: &amp;quot;Cascadia Code&amp;quot;, &amp;quot;Fira Code&amp;quot;, Consolas, monospace; font-size: 13px; text-align: start; white-space: pre; background-color: rgb(250, 250, 250);&quot;&gt;用户管理服务&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="1">
-          <mxGeometry x="200" y="200" width="140" height="70" as="geometry" />
+        <mxCell id="P-O2WmCgX-pvdEC-6ExG-2" value="&lt;span style=&quot;font-family: &amp;quot;Cascadia Code&amp;quot;, &amp;quot;Fira Code&amp;quot;, Consolas, monospace; font-size: 13px; text-align: start; white-space: pre;&quot;&gt;用户管理服务&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fontColor=default;textShadow=0;glass=0;shadow=1;sketch=1;curveFitting=1;jiggle=2;" parent="1" vertex="1">
+          <mxGeometry x="10" y="-210" width="140" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="P-O2WmCgX-pvdEC-6ExG-5" value="&lt;span style=&quot;font-family: &amp;quot;Cascadia Code&amp;quot;, &amp;quot;Fira Code&amp;quot;, Consolas, monospace; font-size: 13px; text-align: start; white-space: pre; background-color: rgb(250, 250, 250);&quot;&gt;预约服务&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="1">
-          <mxGeometry x="340" y="200" width="140" height="70" as="geometry" />
+        <mxCell id="P-O2WmCgX-pvdEC-6ExG-5" value="&lt;span style=&quot;font-family: &amp;quot;Cascadia Code&amp;quot;, &amp;quot;Fira Code&amp;quot;, Consolas, monospace; font-size: 13px; text-align: start; white-space: pre;&quot;&gt;预约服务&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fontColor=default;textShadow=0;glass=0;shadow=1;sketch=1;curveFitting=1;jiggle=2;" parent="1" vertex="1">
+          <mxGeometry x="150" y="-210" width="140" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="P-O2WmCgX-pvdEC-6ExG-6" value="&lt;span style=&quot;font-family: &amp;quot;Cascadia Code&amp;quot;, &amp;quot;Fira Code&amp;quot;, Consolas, monospace; font-size: 13px; text-align: start; white-space: pre; background-color: rgb(250, 250, 250);&quot;&gt; 疫苗管理服务&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="1">
-          <mxGeometry x="480" y="200" width="140" height="70" as="geometry" />
+        <mxCell id="P-O2WmCgX-pvdEC-6ExG-6" value="&lt;span style=&quot;font-family: &amp;quot;Cascadia Code&amp;quot;, &amp;quot;Fira Code&amp;quot;, Consolas, monospace; font-size: 13px; text-align: start; white-space: pre;&quot;&gt; 疫苗管理服务&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fontColor=default;textShadow=0;glass=0;shadow=1;sketch=1;curveFitting=1;jiggle=2;" parent="1" vertex="1">
+          <mxGeometry x="290" y="-210" width="140" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="P-O2WmCgX-pvdEC-6ExG-7" value="&lt;span style=&quot;font-family: &amp;quot;Cascadia Code&amp;quot;, &amp;quot;Fira Code&amp;quot;, Consolas, monospace; font-size: 13px; text-align: start; white-space: pre; background-color: rgb(250, 250, 250);&quot;&gt;追溯服务&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="1">
-          <mxGeometry x="620" y="200" width="140" height="70" as="geometry" />
+        <mxCell id="P-O2WmCgX-pvdEC-6ExG-7" value="&lt;span style=&quot;font-family: &amp;quot;Cascadia Code&amp;quot;, &amp;quot;Fira Code&amp;quot;, Consolas, monospace; font-size: 13px; text-align: start; white-space: pre;&quot;&gt;追溯服务&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fontColor=default;textShadow=0;glass=0;shadow=1;sketch=1;curveFitting=1;jiggle=2;" parent="1" vertex="1">
+          <mxGeometry x="430" y="-210" width="140" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="P-O2WmCgX-pvdEC-6ExG-8" value="&lt;span style=&quot;font-family: &amp;quot;Cascadia Code&amp;quot;, &amp;quot;Fira Code&amp;quot;, Consolas, monospace; font-size: 13px; text-align: start; white-space: pre; background-color: rgb(250, 250, 250);&quot;&gt;- 身份认证&lt;br/&gt;- 权限分级&lt;br/&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="1">
-          <mxGeometry x="200" y="270" width="140" height="70" as="geometry" />
+        <mxCell id="P-O2WmCgX-pvdEC-6ExG-8" value="&lt;span style=&quot;font-family: &amp;quot;Cascadia Code&amp;quot;, &amp;quot;Fira Code&amp;quot;, Consolas, monospace; font-size: 13px; text-align: start; white-space: pre;&quot;&gt;- 身份认证&lt;br&gt;- 权限分级&lt;br&gt;&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fontColor=default;textShadow=0;glass=0;shadow=1;sketch=1;curveFitting=1;jiggle=2;" parent="1" vertex="1">
+          <mxGeometry x="10" y="-140" width="140" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="P-O2WmCgX-pvdEC-6ExG-9" value="&lt;span style=&quot;font-family: &amp;quot;Cascadia Code&amp;quot;, &amp;quot;Fira Code&amp;quot;, Consolas, monospace; font-size: 13px; text-align: start; white-space: pre; background-color: rgb(250, 250, 250);&quot;&gt;- 时段冲突校验&lt;br/&gt;- 智能推荐算法&lt;br/&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="1">
-          <mxGeometry x="340" y="270" width="140" height="70" as="geometry" />
+        <mxCell id="P-O2WmCgX-pvdEC-6ExG-9" value="&lt;span style=&quot;font-family: &amp;quot;Cascadia Code&amp;quot;, &amp;quot;Fira Code&amp;quot;, Consolas, monospace; font-size: 13px; text-align: start; white-space: pre;&quot;&gt;- 时段冲突校验&lt;br&gt;- 智能推荐算法&lt;br&gt;&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fontColor=default;textShadow=0;glass=0;shadow=1;sketch=1;curveFitting=1;jiggle=2;" parent="1" vertex="1">
+          <mxGeometry x="150" y="-140" width="140" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="P-O2WmCgX-pvdEC-6ExG-10" value="&lt;span style=&quot;font-family: &amp;quot;Cascadia Code&amp;quot;, &amp;quot;Fira Code&amp;quot;, Consolas, monospace; font-size: 13px; text-align: start; white-space: pre; background-color: rgb(250, 250, 250);&quot;&gt;- 疫苗状态更新&lt;br&gt;- 智能推荐算法&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="1">
-          <mxGeometry x="480" y="270" width="140" height="70" as="geometry" />
+        <mxCell id="P-O2WmCgX-pvdEC-6ExG-10" value="&lt;span style=&quot;font-family: &amp;quot;Cascadia Code&amp;quot;, &amp;quot;Fira Code&amp;quot;, Consolas, monospace; font-size: 13px; text-align: start; white-space: pre;&quot;&gt;- 疫苗状态更新&lt;br&gt;- 智能推荐算法&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fontColor=default;textShadow=0;glass=0;shadow=1;sketch=1;curveFitting=1;jiggle=2;" parent="1" vertex="1">
+          <mxGeometry x="290" y="-140" width="140" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="P-O2WmCgX-pvdEC-6ExG-11" value="&lt;span style=&quot;font-family: &amp;quot;Cascadia Code&amp;quot;, &amp;quot;Fira Code&amp;quot;, Consolas, monospace; font-size: 13px; text-align: start; white-space: pre; background-color: rgb(250, 250, 250);&quot;&gt;- 区块链存证&lt;br/&gt;- 供应链追溯&lt;br/&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="1">
-          <mxGeometry x="620" y="270" width="140" height="70" as="geometry" />
+        <mxCell id="P-O2WmCgX-pvdEC-6ExG-11" value="&lt;span style=&quot;font-family: &amp;quot;Cascadia Code&amp;quot;, &amp;quot;Fira Code&amp;quot;, Consolas, monospace; font-size: 13px; text-align: start; white-space: pre;&quot;&gt;- 区块链存证&lt;br&gt;- 供应链追溯&lt;br&gt;&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fontColor=default;textShadow=0;glass=0;shadow=1;sketch=1;curveFitting=1;jiggle=2;" parent="1" vertex="1">
+          <mxGeometry x="430" y="-140" width="140" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="P-O2WmCgX-pvdEC-6ExG-12" value="&lt;span style=&quot;font-family: &amp;quot;Cascadia Code&amp;quot;, &amp;quot;Fira Code&amp;quot;, Consolas, monospace; font-size: 13px; text-align: start; white-space: pre; background-color: rgb(250, 250, 250);&quot;&gt;Nacos（服务注册与配置中心）&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="1">
-          <mxGeometry x="200" y="340" width="280" height="70" as="geometry" />
+        <mxCell id="P-O2WmCgX-pvdEC-6ExG-12" value="&lt;span style=&quot;font-family: &amp;quot;Cascadia Code&amp;quot;, &amp;quot;Fira Code&amp;quot;, Consolas, monospace; font-size: 13px; text-align: start; white-space: pre;&quot;&gt;Nacos（服务注册与配置中心）&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fontColor=default;textShadow=0;glass=0;shadow=1;sketch=1;curveFitting=1;jiggle=2;" parent="1" vertex="1">
+          <mxGeometry x="10" y="-70" width="280" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="P-O2WmCgX-pvdEC-6ExG-14" value="&lt;span style=&quot;font-family: &amp;quot;Cascadia Code&amp;quot;, &amp;quot;Fira Code&amp;quot;, Consolas, monospace; font-size: 13px; text-align: start; white-space: pre; background-color: rgb(250, 250, 250);&quot;&gt;Redis（缓存队列）&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="1">
-          <mxGeometry x="480" y="340" width="280" height="70" as="geometry" />
+        <mxCell id="P-O2WmCgX-pvdEC-6ExG-14" value="&lt;span style=&quot;font-family: &amp;quot;Cascadia Code&amp;quot;, &amp;quot;Fira Code&amp;quot;, Consolas, monospace; font-size: 13px; text-align: start; white-space: pre;&quot;&gt;Redis（缓存队列）&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fontColor=default;textShadow=0;glass=0;shadow=1;sketch=1;curveFitting=1;jiggle=2;" parent="1" vertex="1">
+          <mxGeometry x="290" y="-70" width="280" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="RYndFMLu5m47OOJ0UMc0-26" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="RYndFMLu5m47OOJ0UMc0-2" target="RYndFMLu5m47OOJ0UMc0-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RYndFMLu5m47OOJ0UMc0-2" value="" style="rounded=1;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="325" y="60" width="715" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="RYndFMLu5m47OOJ0UMc0-1" value="&lt;span style=&quot;font-family: &amp;quot;Cascadia Code&amp;quot;, &amp;quot;Fira Code&amp;quot;, Consolas, monospace; font-size: 13px; text-align: start; white-space: pre;&quot;&gt;API 网关&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;font-family: &amp;quot;Cascadia Code&amp;quot;, &amp;quot;Fira Code&amp;quot;, Consolas, monospace; font-size: 13px; text-align: start; white-space: pre;&quot;&gt;(Spring Cloud Gateway)&lt;/span&gt;&lt;span style=&quot;font-family: &amp;quot;Cascadia Code&amp;quot;, &amp;quot;Fira Code&amp;quot;, Consolas, monospace; font-size: 13px; text-align: start; white-space: pre;&quot;&gt;&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontColor=default;labelBackgroundColor=none;" vertex="1" parent="1">
+          <mxGeometry x="577.5" y="90" width="200" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="RYndFMLu5m47OOJ0UMc0-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="RYndFMLu5m47OOJ0UMc0-3">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="320" y="110" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RYndFMLu5m47OOJ0UMc0-6" value="&lt;span style=&quot;font-family: &amp;quot;Cascadia Code&amp;quot;, &amp;quot;Fira Code&amp;quot;, Consolas, monospace; font-size: 13px; text-align: start; white-space-collapse: preserve; background-color: rgb(250, 250, 250);&quot;&gt;用户请求&lt;/span&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="RYndFMLu5m47OOJ0UMc0-5">
+          <mxGeometry x="-0.0189" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RYndFMLu5m47OOJ0UMc0-3" value="&lt;span style=&quot;color: rgb(0, 0, 0); font-family: &amp;quot;Cascadia Code&amp;quot;, &amp;quot;Fira Code&amp;quot;, Consolas, monospace; font-size: 13px; text-align: start; white-space-collapse: preserve; background-color: rgb(250, 250, 250);&quot;&gt;小程序/Web/管理端&lt;/span&gt;" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#232F3D;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.user;" vertex="1" parent="1">
+          <mxGeometry x="90" y="71" width="78" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="RYndFMLu5m47OOJ0UMc0-27" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="RYndFMLu5m47OOJ0UMc0-7" target="RYndFMLu5m47OOJ0UMc0-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RYndFMLu5m47OOJ0UMc0-7" value="" style="rounded=1;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;fillColor=none;labelBackgroundColor=none;" vertex="1" parent="1">
+          <mxGeometry x="325" y="230" width="705" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="RYndFMLu5m47OOJ0UMc0-8" value="&lt;span style=&quot;font-family: &amp;quot;Cascadia Code&amp;quot;, &amp;quot;Fira Code&amp;quot;, Consolas, monospace; font-size: 13px; text-align: start; white-space: pre;&quot;&gt;User &lt;/span&gt;&lt;span style=&quot;font-family: &amp;quot;Cascadia Code&amp;quot;, &amp;quot;Fira Code&amp;quot;, Consolas, monospace; font-size: 13px; text-align: start; white-space: pre;&quot;&gt;Service&lt;br&gt;(实例x2)&lt;br&gt;&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontColor=default;labelBackgroundColor=none;" vertex="1" parent="1">
+          <mxGeometry x="340" y="260" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="RYndFMLu5m47OOJ0UMc0-9" value="&lt;span style=&quot;font-family: &amp;quot;Cascadia Code&amp;quot;, &amp;quot;Fira Code&amp;quot;, Consolas, monospace; font-size: 13px; text-align: start; white-space: pre;&quot;&gt;Vaccine &lt;/span&gt;&lt;span style=&quot;font-family: &amp;quot;Cascadia Code&amp;quot;, &amp;quot;Fira Code&amp;quot;, Consolas, monospace; font-size: 13px; text-align: start; white-space: pre;&quot;&gt;Service&lt;br&gt;(实例x2)&lt;br&gt;&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontColor=default;labelBackgroundColor=none;" vertex="1" parent="1">
+          <mxGeometry x="510.5" y="260" width="159.5" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="RYndFMLu5m47OOJ0UMc0-10" value="&lt;span style=&quot;font-family: &amp;quot;Cascadia Code&amp;quot;, &amp;quot;Fira Code&amp;quot;, Consolas, monospace; font-size: 13px; text-align: start; white-space: pre;&quot;&gt;Appointment &lt;/span&gt;&lt;span style=&quot;font-family: &amp;quot;Cascadia Code&amp;quot;, &amp;quot;Fira Code&amp;quot;, Consolas, monospace; font-size: 13px; text-align: start; white-space: pre;&quot;&gt;Service&lt;br&gt;(实例x2)&lt;br&gt;&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontColor=default;labelBackgroundColor=none;" vertex="1" parent="1">
+          <mxGeometry x="680" y="260" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="RYndFMLu5m47OOJ0UMc0-11" value="&lt;span style=&quot;font-family: &amp;quot;Cascadia Code&amp;quot;, &amp;quot;Fira Code&amp;quot;, Consolas, monospace; font-size: 13px; text-align: start; white-space: pre;&quot;&gt;Trace &lt;/span&gt;&lt;span style=&quot;font-family: &amp;quot;Cascadia Code&amp;quot;, &amp;quot;Fira Code&amp;quot;, Consolas, monospace; font-size: 13px; text-align: start; white-space: pre;&quot;&gt;Service&lt;br&gt;(实例x1)&lt;br&gt;&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontColor=default;labelBackgroundColor=none;" vertex="1" parent="1">
+          <mxGeometry x="850" y="260" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="RYndFMLu5m47OOJ0UMc0-12" value="" style="rounded=1;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;fillColor=none;labelBackgroundColor=none;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="325" y="414" width="705" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="RYndFMLu5m47OOJ0UMc0-13" value="&lt;span style=&quot;font-family: &amp;quot;Cascadia Code&amp;quot;, &amp;quot;Fira Code&amp;quot;, Consolas, monospace; font-size: 13px; text-align: start; white-space: pre;&quot;&gt;Nacos&lt;br&gt;(注册中心)&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;font-family: &amp;quot;Cascadia Code&amp;quot;, &amp;quot;Fira Code&amp;quot;, Consolas, monospace; font-size: 13px; text-align: start; white-space: pre;&quot;&gt;&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontColor=default;labelBackgroundColor=none;" vertex="1" parent="1">
+          <mxGeometry x="330" y="444" width="135" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="RYndFMLu5m47OOJ0UMc0-14" value="&lt;span style=&quot;font-family: &amp;quot;Cascadia Code&amp;quot;, &amp;quot;Fira Code&amp;quot;, Consolas, monospace; font-size: 13px; text-align: start; white-space: pre;&quot;&gt;Redis&lt;br&gt;(缓存队列)&lt;br&gt;&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontColor=default;labelBackgroundColor=none;" vertex="1" parent="1">
+          <mxGeometry x="470" y="444" width="135" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="RYndFMLu5m47OOJ0UMc0-15" value="&lt;span style=&quot;font-family: &amp;quot;Cascadia Code&amp;quot;, &amp;quot;Fira Code&amp;quot;, Consolas, monospace; font-size: 13px; text-align: start; white-space: pre;&quot;&gt;MySQL&lt;br&gt;(业务数据)&lt;br&gt;&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontColor=default;labelBackgroundColor=none;" vertex="1" parent="1">
+          <mxGeometry x="610" y="444" width="135" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="RYndFMLu5m47OOJ0UMc0-16" value="&lt;span style=&quot;font-family: &amp;quot;Cascadia Code&amp;quot;, &amp;quot;Fira Code&amp;quot;, Consolas, monospace; font-size: 13px; text-align: start; white-space: pre;&quot;&gt;MongoDB&lt;br&gt;(文档存储)&lt;br&gt;&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontColor=default;labelBackgroundColor=none;" vertex="1" parent="1">
+          <mxGeometry x="750" y="444" width="135" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="RYndFMLu5m47OOJ0UMc0-17" value="&lt;span style=&quot;font-family: &amp;quot;Cascadia Code&amp;quot;, &amp;quot;Fira Code&amp;quot;, Consolas, monospace; font-size: 13px; text-align: start; white-space: pre;&quot;&gt;区块链节点&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;font-family: &amp;quot;Cascadia Code&amp;quot;, &amp;quot;Fira Code&amp;quot;, Consolas, monospace; font-size: 13px; text-align: start; white-space: pre;&quot;&gt;&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontColor=default;labelBackgroundColor=none;" vertex="1" parent="1">
+          <mxGeometry x="890" y="444" width="135" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="RYndFMLu5m47OOJ0UMc0-20" value="Text" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="760" y="280" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="RYndFMLu5m47OOJ0UMc0-21" value="&lt;span style=&quot;font-family: &amp;quot;Cascadia Code&amp;quot;, &amp;quot;Fira Code&amp;quot;, Consolas, monospace; font-size: 13px; text-align: start; white-space: pre; background-color: rgb(250, 250, 250);&quot;&gt;接入层&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="647.5" y="41" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="RYndFMLu5m47OOJ0UMc0-22" value="&lt;span style=&quot;font-family: &amp;quot;Cascadia Code&amp;quot;, &amp;quot;Fira Code&amp;quot;, Consolas, monospace; font-size: 13px; text-align: start; white-space: pre; background-color: rgb(250, 250, 250);&quot;&gt;服务层&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="652.5" y="210" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="RYndFMLu5m47OOJ0UMc0-23" value="&lt;span style=&quot;font-family: &amp;quot;Cascadia Code&amp;quot;, &amp;quot;Fira Code&amp;quot;, Consolas, monospace; font-size: 13px; text-align: start; white-space: pre; background-color: rgb(250, 250, 250);&quot;&gt;中间件与数据层&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="647.5" y="390" width="60" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
