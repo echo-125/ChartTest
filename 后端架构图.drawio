@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36 Edg/135.0.0.0" version="27.0.3">
   <diagram name="第 1 页" id="VxLmsfFl5GbTY4NfgnjO">
-    <mxGraphModel dx="1034" dy="1402" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" background="none" math="0" shadow="0">
+    <mxGraphModel dx="1250" dy="1522" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -119,7 +119,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="RYndFMLu5m47OOJ0UMc0-35" value="" style="verticalLabelPosition=bottom;shadow=0;dashed=0;align=center;html=1;verticalAlign=top;shape=mxgraph.electrical.radio.aerial_-_antenna_1;" vertex="1" parent="1">
-          <mxGeometry x="205" y="760" width="310" height="40" as="geometry" />
+          <mxGeometry x="206" y="760" width="310" height="40" as="geometry" />
         </mxCell>
         <mxCell id="RYndFMLu5m47OOJ0UMc0-42" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="RYndFMLu5m47OOJ0UMc0-37" target="RYndFMLu5m47OOJ0UMc0-38">
           <mxGeometry relative="1" as="geometry" />
@@ -142,7 +142,7 @@
         <mxCell id="RYndFMLu5m47OOJ0UMc0-44" value="&lt;span style=&quot;font-family: &amp;quot;Cascadia Code&amp;quot;, &amp;quot;Fira Code&amp;quot;, Consolas, monospace; font-size: 13px; font-weight: 400; text-align: start; white-space: pre; background-color: rgb(250, 250, 250);&quot;&gt;区块链节点共识 (PBFT) &lt;br&gt;→ 验证 → 打包成区块 → 同步账本&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;fontStyle=1" vertex="1" parent="1">
           <mxGeometry x="245" y="976" width="230" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="RYndFMLu5m47OOJ0UMc0-60" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="RYndFMLu5m47OOJ0UMc0-47" target="RYndFMLu5m47OOJ0UMc0-59">
+        <mxCell id="RYndFMLu5m47OOJ0UMc0-64" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="RYndFMLu5m47OOJ0UMc0-47" target="RYndFMLu5m47OOJ0UMc0-59">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="RYndFMLu5m47OOJ0UMc0-47" value="&lt;span style=&quot;font-family: &amp;quot;Cascadia Code&amp;quot;, &amp;quot;Fira Code&amp;quot;, Consolas, monospace; font-size: 13px; font-weight: 400; text-align: start; white-space: pre; background-color: rgb(250, 250, 250);&quot;&gt;验证数据完整性 (哈希比对)&lt;br/&gt;&lt;/span&gt;&lt;span style=&quot;font-family: &amp;quot;Cascadia Code&amp;quot;, &amp;quot;Fira Code&amp;quot;, Consolas, monospace; font-size: 13px; font-weight: 400; text-align: start; white-space: pre; background-color: rgb(250, 250, 250);&quot;&gt;+ 零知识证明隐私保护&lt;/span&gt;&lt;span style=&quot;font-family: &amp;quot;Cascadia Code&amp;quot;, &amp;quot;Fira Code&amp;quot;, Consolas, monospace; font-size: 13px; font-weight: 400; text-align: start; white-space: pre; background-color: rgb(250, 250, 250);&quot;&gt;&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;fontStyle=1" vertex="1" parent="1">
@@ -164,7 +164,7 @@
           <mxGeometry x="280" y="1166" width="160" height="30" as="geometry" />
         </mxCell>
         <mxCell id="RYndFMLu5m47OOJ0UMc0-59" value="&lt;span style=&quot;font-family: &amp;quot;Cascadia Code&amp;quot;, &amp;quot;Fira Code&amp;quot;, Consolas, monospace; font-size: 13px; text-align: start; white-space: pre; background-color: rgb(250, 250, 250);&quot;&gt;可视化输出&lt;br/&gt;（时间轴轨迹 / PDF报告）&lt;br/&gt;&lt;/span&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.document2;whiteSpace=wrap;size=0.25;" vertex="1" parent="1">
-          <mxGeometry x="275" y="1282" width="170" height="60" as="geometry" />
+          <mxGeometry x="262.5" y="1282" width="195" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
