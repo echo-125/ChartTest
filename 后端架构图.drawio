@@ -104,6 +104,68 @@
         <mxCell id="RYndFMLu5m47OOJ0UMc0-23" value="&lt;span style=&quot;font-family: &amp;quot;Cascadia Code&amp;quot;, &amp;quot;Fira Code&amp;quot;, Consolas, monospace; font-size: 13px; text-align: start; white-space: pre; background-color: rgb(250, 250, 250);&quot;&gt;中间件与数据层&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="647.5" y="400" width="60" height="30" as="geometry" />
         </mxCell>
+        <mxCell id="RYndFMLu5m47OOJ0UMc0-32" value="&lt;span style=&quot;font-family: &amp;quot;Cascadia Code&amp;quot;, &amp;quot;Fira Code&amp;quot;, Consolas, monospace; font-size: 13px; text-align: start; white-space: pre; background-color: rgb(250, 250, 250);&quot;&gt;生产批次信息 &lt;/span&gt;" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;" vertex="1" parent="1">
+          <mxGeometry x="170" y="700" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="RYndFMLu5m47OOJ0UMc0-33" value="&lt;span style=&quot;font-family: &amp;quot;Cascadia Code&amp;quot;, &amp;quot;Fira Code&amp;quot;, Consolas, monospace; font-size: 13px; text-align: start; white-space: pre; background-color: rgb(250, 250, 250);&quot;&gt;生产批次信息 &lt;/span&gt;" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;" vertex="1" parent="1">
+          <mxGeometry x="300" y="700" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="RYndFMLu5m47OOJ0UMc0-34" value="&lt;span style=&quot;font-family: &amp;quot;Cascadia Code&amp;quot;, &amp;quot;Fira Code&amp;quot;, Consolas, monospace; font-size: 13px; text-align: start; white-space: pre; background-color: rgb(250, 250, 250);&quot;&gt;接种操作日志&lt;/span&gt;" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;" vertex="1" parent="1">
+          <mxGeometry x="420" y="700" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="RYndFMLu5m47OOJ0UMc0-41" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" target="RYndFMLu5m47OOJ0UMc0-37">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="360" y="776" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RYndFMLu5m47OOJ0UMc0-35" value="" style="verticalLabelPosition=bottom;shadow=0;dashed=0;align=center;html=1;verticalAlign=top;shape=mxgraph.electrical.radio.aerial_-_antenna_1;" vertex="1" parent="1">
+          <mxGeometry x="205" y="760" width="310" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="RYndFMLu5m47OOJ0UMc0-42" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="RYndFMLu5m47OOJ0UMc0-37" target="RYndFMLu5m47OOJ0UMc0-38">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RYndFMLu5m47OOJ0UMc0-37" value="&lt;span style=&quot;box-sizing: border-box; margin: 0px; -webkit-tap-highlight-color: transparent; white-space: pre; display: block; min-height: 1.3rem; padding-left: 0px; font-family: &amp;quot;Cascadia Code&amp;quot;, &amp;quot;Fira Code&amp;quot;, Consolas, monospace; font-size: 13px; background-color: rgb(250, 250, 250);&quot; class=&quot;line&quot;&gt;&lt;span style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;数据存储与预处理&lt;br/&gt;&lt;/span&gt;&lt;span style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;（MySQL结构化/MongoDB非结构化）&lt;/span&gt;&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="245" y="802" width="230" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="RYndFMLu5m47OOJ0UMc0-45" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="RYndFMLu5m47OOJ0UMc0-38" target="RYndFMLu5m47OOJ0UMc0-43">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RYndFMLu5m47OOJ0UMc0-38" value="&lt;span style=&quot;font-family: &amp;quot;Cascadia Code&amp;quot;, &amp;quot;Fira Code&amp;quot;, Consolas, monospace; font-size: 13px; font-weight: 400; text-align: start; white-space: pre; background-color: rgb(250, 250, 250);&quot;&gt;关键数据哈希 (SHA-256)&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="245" y="864" width="230" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="RYndFMLu5m47OOJ0UMc0-46" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="RYndFMLu5m47OOJ0UMc0-43" target="RYndFMLu5m47OOJ0UMc0-44">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RYndFMLu5m47OOJ0UMc0-43" value="&lt;span style=&quot;font-family: &amp;quot;Cascadia Code&amp;quot;, &amp;quot;Fira Code&amp;quot;, Consolas, monospace; font-size: 13px; font-weight: 400; text-align: start; white-space: pre; background-color: rgb(250, 250, 250);&quot;&gt;调用智能合约上链&lt;br&gt;（包含操作者身份、时间戳）&lt;br&gt;&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="245" y="914" width="230" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="RYndFMLu5m47OOJ0UMc0-44" value="&lt;span style=&quot;font-family: &amp;quot;Cascadia Code&amp;quot;, &amp;quot;Fira Code&amp;quot;, Consolas, monospace; font-size: 13px; font-weight: 400; text-align: start; white-space: pre; background-color: rgb(250, 250, 250);&quot;&gt;区块链节点共识 (PBFT) &lt;br&gt;→ 验证 → 打包成区块 → 同步账本&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="245" y="974" width="230" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="RYndFMLu5m47OOJ0UMc0-60" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="RYndFMLu5m47OOJ0UMc0-47" target="RYndFMLu5m47OOJ0UMc0-59">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RYndFMLu5m47OOJ0UMc0-47" value="&lt;span style=&quot;font-family: &amp;quot;Cascadia Code&amp;quot;, &amp;quot;Fira Code&amp;quot;, Consolas, monospace; font-size: 13px; font-weight: 400; text-align: start; white-space: pre; background-color: rgb(250, 250, 250);&quot;&gt;验证数据完整性 (哈希比对)&lt;br/&gt;&lt;/span&gt;&lt;span style=&quot;font-family: &amp;quot;Cascadia Code&amp;quot;, &amp;quot;Fira Code&amp;quot;, Consolas, monospace; font-size: 13px; font-weight: 400; text-align: start; white-space: pre; background-color: rgb(250, 250, 250);&quot;&gt;+ 零知识证明隐私保护&lt;/span&gt;&lt;span style=&quot;font-family: &amp;quot;Cascadia Code&amp;quot;, &amp;quot;Fira Code&amp;quot;, Consolas, monospace; font-size: 13px; font-weight: 400; text-align: start; white-space: pre; background-color: rgb(250, 250, 250);&quot;&gt;&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="245" y="1214" width="230" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="RYndFMLu5m47OOJ0UMc0-49" value="&lt;span style=&quot;font-family: &amp;quot;Cascadia Code&amp;quot;, &amp;quot;Fira Code&amp;quot;, Consolas, monospace; font-size: 13px; text-align: start; white-space: pre; background-color: rgb(250, 250, 250);&quot;&gt;用户扫码查询&lt;br/&gt;（接种证二维码）&lt;br/&gt;&lt;/span&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="205" y="1064" width="150" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="RYndFMLu5m47OOJ0UMc0-51" value="" style="strokeWidth=1;html=1;shape=mxgraph.flowchart.annotation_2;align=left;labelPosition=right;pointerEvents=1;direction=south;" vertex="1" parent="1">
+          <mxGeometry x="280" y="1014" width="160" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="RYndFMLu5m47OOJ0UMc0-52" value="&lt;span style=&quot;font-family: &amp;quot;Cascadia Code&amp;quot;, &amp;quot;Fira Code&amp;quot;, Consolas, monospace; font-size: 13px; text-align: start; white-space: pre; background-color: rgb(250, 250, 250);&quot;&gt;监管输入批次号&lt;br/&gt;（全流程追溯）&lt;br/&gt;&lt;/span&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="365" y="1064" width="150" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="RYndFMLu5m47OOJ0UMc0-58" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="RYndFMLu5m47OOJ0UMc0-53" target="RYndFMLu5m47OOJ0UMc0-47">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RYndFMLu5m47OOJ0UMc0-53" value="" style="strokeWidth=1;html=1;shape=mxgraph.flowchart.annotation_2;align=left;labelPosition=right;pointerEvents=1;direction=north;" vertex="1" parent="1">
+          <mxGeometry x="280" y="1164" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="RYndFMLu5m47OOJ0UMc0-59" value="&lt;span style=&quot;font-family: &amp;quot;Cascadia Code&amp;quot;, &amp;quot;Fira Code&amp;quot;, Consolas, monospace; font-size: 13px; text-align: start; white-space: pre; background-color: rgb(250, 250, 250);&quot;&gt;可视化输出&lt;br/&gt;（时间轴轨迹 / PDF报告）&lt;br/&gt;&lt;/span&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.document2;whiteSpace=wrap;size=0.25;" vertex="1" parent="1">
+          <mxGeometry x="275" y="1280" width="170" height="60" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
